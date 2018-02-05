@@ -83,6 +83,14 @@ var fairyTale5 = ["daBears", "papaBear", "mamaBear", "babyBear", "goldilocks"];
 
 // CODE HERE...
 
+// function Vehicle (){
+//   this.gasRemaining = 100;
+//   this.charger
+//   this.mustang
+//   this.drive = function(){return this.gasRemaining - 25}
+
+// }
+
 
 
 
@@ -104,11 +112,18 @@ var fairyTale5 = ["daBears", "papaBear", "mamaBear", "babyBear", "goldilocks"];
 // Your method may be passed punctuation, numbers or other non-letter characters
 // and should neither modify them nor break when encountering them.
 
-
-
-
 // CODE HERE...
 
+// function firstCap(str){
+  
+// }
+String.prototype.grammarPolice = function(){
+  firstCap = str[0].toUpperCase()+str.slice(1);
+
+  return firstCap;
+};
+
+"cars are FAST".grammerPolice();
 
 
 // *************
@@ -127,6 +142,18 @@ var fairyTale5 = ["daBears", "papaBear", "mamaBear", "babyBear", "goldilocks"];
 
 // CODE HERE...
 
+function valueType(x, y){
+  if(x === y){
+    return "Exactly the same";
+  } else{
+    if(x == y){
+      return "Same value, different types";
+    } else{
+      return "Different values";
+    }
+  }
+}
+
 
 
 // *************
@@ -141,3 +168,8 @@ var fairyTale5 = ["daBears", "papaBear", "mamaBear", "babyBear", "goldilocks"];
 var theAnswer = "Unknown";
 
 // CODE HERE...
+// function promiseCatcher(x){
+//   return new Promise(function(resolve){
+
+//   })
+// }
